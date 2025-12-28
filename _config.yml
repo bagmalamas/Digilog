@@ -1,40 +1,36 @@
 # SITE SETTINGS
-title: Digilog                        # Title in top navigation bar (navbar) and <head>
-author: Vangelis Malamas                    # Used for copyright statement in footer
+title: Digilog
+author: Vangelis Malamas
+
 url: "https://bagmalamas.github.io"
-baseurl: "/Digilog"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
-                                        # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
-remote_theme: peterdesmet/petridish@3.1      # A baseurl affects internal links, see http://peterdesmet.com/petridish/markdown/#links
+baseurl: "/Digilog"
+
+remote_theme: peterdesmet/petridish@3.1
 
 # SOCIAL PROFILES
 social:
   email: name@example.com
-  bluesky: bluesky_username.bsky.social
-  mastodon: https://mastodon.social/@mastodon_username
-  twitter: twitter_username
-  linkedin: https://linkedin.com/company/project_name/
-  facebook: https://facebook.com/groups/group_id/
-  github: github_username               # Can also be a github_username/repository
-  disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
+  github: bagmalamas
 
-# THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 2                        # Show x number of latest posts on homepage, can be 0
-archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
-github_edit: true                       # Show an "edit this page" link in the footer, can also be name of branch (default: main)
+# THEME SETTINGS (OPTIONAL)
+posts_on_home: 2
+archive_permalink: /blog/
+github_edit: true
 colors:
-  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
-  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
-font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
-rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
-logo: /assets/theme/images/petri-dish_1f9eb.png # Logo in navbar, will be displayed with 30px height
+  links: "#007bff"
+  banner: "#007bff"
+  footer: "#6c757d"
+font_serif: true
+rounded_corners: true
+logo: /assets/theme/images/petri-dish_1f9eb.png
 
 # BUILD SETTINGS
 markdown: kramdown
-plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
+
 exclude:
   - README.md
   - Gemfile
@@ -51,8 +47,8 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: default                   # Use default.html layout by default for all files
+      layout: default
   - scope:
       type: posts
     values:
-      permalink: "/blog/:year/:slug/"   # Use /blog/yyyy/{filename}/ as permalink for all posts
+      permalink: "/blog/:year/:slug/"
