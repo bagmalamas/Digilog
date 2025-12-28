@@ -1,12 +1,16 @@
 # SITE SETTINGS
-title: 
+title: Digilog
 author: Vangelis Malamas
 
 url: "https://bagmalamas.github.io"
 baseurl: "/Digilog"
 
 remote_theme: peterdesmet/petridish@3.1
-custom_css: /assets/theme/css/custom.css
+
+# IMPORTANT: point to YOUR custom CSS file
+custom_css: /assets/css/custom.css
+
+logo: /assets/theme/images/digilog-logo.png
 
 # SOCIAL PROFILES
 social:
@@ -23,7 +27,6 @@ colors:
   footer: "#6c757d"
 font_serif: true
 rounded_corners: true
-logo: /assets/theme/images/digilog-logo.png
 
 # BUILD SETTINGS
 markdown: kramdown
