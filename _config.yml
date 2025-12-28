@@ -1,9 +1,10 @@
 # SITE SETTINGS
-title: Petridish                        # Title in top navigation bar (navbar) and <head>
-author: Peter Desmet                    # Used for copyright statement in footer
-baseurl: "/petridish"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
+title: Digilog                        # Title in top navigation bar (navbar) and <head>
+author: Vangelis Malamas                    # Used for copyright statement in footer
+url: "https://bagmalamas.github.io"
+baseurl: "/Digilog"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
-                                        # A baseurl affects internal links, see http://peterdesmet.com/petridish/markdown/#links
+remote_theme: peterdesmet/petridish@3.1      # A baseurl affects internal links, see http://peterdesmet.com/petridish/markdown/#links
 
 # SOCIAL PROFILES
 social:
@@ -31,6 +32,7 @@ logo: /assets/theme/images/petri-dish_1f9eb.png # Logo in navbar, will be displa
 # BUILD SETTINGS
 markdown: kramdown
 plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
 exclude:
