@@ -1,0 +1,26 @@
+/* FORCE LARGE NAVBAR LOGO */
+.navbar-brand img,
+.navbar-logo {
+  height: 110px !important;
+  max-height: none !important;
+  width: auto !important;
+}
+
+/* Let navbar grow */
+.navbar {
+  min-height: 120px !important;
+}
+
+/* Keep it tidy */
+#main-nav {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  align-items: center !important;
+}
+
+
