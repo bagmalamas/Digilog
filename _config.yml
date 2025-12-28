@@ -6,10 +6,6 @@ url: "https://bagmalamas.github.io"
 baseurl: "/Digilog"
 
 remote_theme: peterdesmet/petridish@3.1
-
-# IMPORTANT: point to YOUR custom CSS file
-custom_css: /assets/css/custom.css
-
 logo: /assets/theme/images/digilog-logo.png
 
 # SOCIAL PROFILES
