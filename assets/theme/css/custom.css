@@ -1,6 +1,20 @@
-/* Increase navbar logo size */
+/* Force larger navbar logo */
 .navbar-brand img {
-  height: 65px !important;
-  max-height: 75px !important;
+  height: 70px !important;
+  max-height: none !important;
+  width: auto !important;
 }
+
+/* Reduce navbar vertical padding so it doesn't look bulky */
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* Hide site title text in navbar */
+.navbar-brand span {
+  display: none !important;
+}
+
 
