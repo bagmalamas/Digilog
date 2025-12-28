@@ -57,3 +57,10 @@ $enable-rounded: {% if site.rounded_corners != false %}true{% else %}false{% end
   @import "_team";              // Team members
 @import "_footer";              // Footer
 @import "_custom";              // Custom styling
+
+/* --- Custom navbar branding --- */
+.navbar .navbar-brand img {
+  height: 64px !important;  /* try 48px / 64px / 80px */
+  width: auto !important;
+}
+
