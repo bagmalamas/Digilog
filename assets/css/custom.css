@@ -1,1 +1,18 @@
+/* Make navbar logo much bigger */
+.navbar-brand img,
+.navbar-logo {
+  height: 110px !important;
+  max-height: none !important;
+  width: auto !important;
+}
+
+/* Allow navbar height to grow */
+.navbar {
+  min-height: 120px !important;
+}
+
+#main-nav {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
 
