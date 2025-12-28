@@ -22,7 +22,7 @@ colors:
   footer: "#6c757d"
 font_serif: true
 rounded_corners: true
-logo: /assets/theme/images/petri-dish_1f9eb.png
+logo: /assets/theme/images/digilog-logo.png
 
 # BUILD SETTINGS
 markdown: kramdown
