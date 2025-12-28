@@ -1,20 +1,23 @@
-/* Force larger navbar logo */
-.navbar-brand img {
-  height: 70px !important;
+/* === FORCE LARGE NAVBAR LOGO (Petridish override) === */
+.navbar-brand img,
+.navbar-logo {
+  height: 110px !important;   /* ← LARGE size */
   max-height: none !important;
   width: auto !important;
 }
 
-/* Reduce navbar vertical padding so it doesn't look bulky */
+/* Keep navbar from becoming too tall */
+#main-nav {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+/* Allow navbar to grow with logo */
 .navbar {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  min-height: 120px !important;
 }
 
-
-/* Hide site title text in navbar */
-.navbar-brand span {
-  display: none !important;
+.navbar-brand {
+  align-items: center !important;
 }
-
 
